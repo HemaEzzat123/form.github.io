@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000623;
+    height: 100vh;
+}
+
+form {
+    background-color: #0000239f;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+}
+
+
+form input {
+    background-color: #0000aaa0;
+    flex-basis: 200px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    flex-grow: 2;
+}
+
+button {
+    background-color: #14a;
+    border: none;
+    padding: 5px 10px;
+    flex-basis: 30px;
+    flex-grow: 1;
+    color: white;
+    cursor: pointer;
+}
